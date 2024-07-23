@@ -40,5 +40,26 @@
       gap: 20px;
   }
   
+  .food-menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  /* testimonial */
+  .testimonial-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .contact-container{
+    display: block;
+  }
+  .contact-img,.form-container{
+    width: 100%;
+  }
   
 }
